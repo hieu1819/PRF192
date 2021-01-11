@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+
+<body>
+    <script>
+        var highToan = 1.7; //chiều cao của Toàn
+        var weightToan = 60; //cân nặng của Toàn
+        var highMinh = 1.8; //chiều cao của Minh
+        var weightMinh = 75; //cân nặng của Minh
+        var BMIToan = weightToan / (highToan * highToan); //tính BMI của Toàn
+        var BMIMinh = weightMinh / (highMinh * highMinh); //tính BMI của Minh
+        console.log("BMI của Toàn là " + BMIToan); //console kết quả của Toàn ra màn hình
+        console.log("BMI của Minh là " + BMIMinh); //console kết quả của Minh ra màn hình
+        if (BMIToan < BMIMinh) { //so sánh kết quả của Toàn và Minh
+            console.log("BMI của Minh lớn hơn BMI của Toàn");
+        } else {
+            console.log("BMI của Minh nhỏ hơn BMI của Toàn");
+        }
+    </script>
+</body>
+
+</html>
